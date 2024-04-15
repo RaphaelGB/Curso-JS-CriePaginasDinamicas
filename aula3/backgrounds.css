@@ -1,0 +1,23 @@
+body{
+    background-image: url("./IMG/xadrez.jpeg");
+    background-repeat: no-repeat; /*Não repete*/
+    background-attachment: fixed; /*Toda a página ou container*/
+    background-position: center; /*centro imagem = centro tela*/
+    background-size: cover; /*ajeita a imagem*/
+}
+
+h1, p{
+    background-repeat: no-repeat; /*Não repete*/
+    background-attachment: fixed; /*Toda a página ou container*/
+}
+
+h1{
+    /*Adiciona um gradiente com direção para a direita*/
+    background: linear-gradient(to right, skyblue, white);
+} 
+
+p{
+    /*Adiciona um gradiente com direção para a esquerda*/
+    background: linear-gradient(to left, skyblue, white);
+    
+}

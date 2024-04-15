@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontre o botão dentro do HTML</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.btn{
+    gap: 10;
+padding: 10;
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+</style>
+</head>
+<body>
+    <button class="btn btn-primeiro">Botão 1</button>
+    <button class="btn btn-segundo">Botão 2</button>
+    <button class="btn btn-terceiro" id="btn-terceiro">Botão 3</button>
+    <button class="btn btn-quarto">Botão 4</button>
+    <button class="btn btn-quinto">Botão 5</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
