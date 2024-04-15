@@ -11,4 +11,4 @@ O conteúdo foi:
 - Eventos onkeydown, onkeyup, template strings 
 - utilizando (e) para pegar teclas e o .classList para adicionar (.add) ou remover (.remove) classes
 
-Link para o projeto: 
+Link para o projeto: https://raphaelgb.github.io/Curso-JS-CriePaginasDinamicas/modulo5/index.html
